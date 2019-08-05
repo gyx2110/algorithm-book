@@ -17,6 +17,7 @@ class Solution(object):
             n = len(tmp)
             l = (n-1)/2
             h = n-1
+            # k用来判断前半部分的边界
             k = l
             i = 0
             while i<n:
